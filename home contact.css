@@ -70,7 +70,7 @@ body {
     color: var(--orange);
 }
 
-.hamburger {
+.mobilenav {
     display: none;
     flex-direction: column;
     cursor: pointer;
@@ -293,7 +293,7 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hamburger {
+    .mobilenav {
         display: flex;
     }
     
