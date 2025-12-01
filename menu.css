@@ -69,9 +69,9 @@ body {
 
 .hamburger {
   display: none;
-  flex-direction: column;
+  font-size: 1.8rem;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .hero {
