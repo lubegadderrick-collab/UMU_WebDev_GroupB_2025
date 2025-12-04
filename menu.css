@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    
 }
 
 .logo a {
@@ -55,8 +55,7 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
-  margin: 0;
-  padding: 0;
+  
 }
 
 .nav-menu a {
@@ -85,7 +84,6 @@ body {
 }
 
 .hero {
-  margin-top: 70px;
   min-height: 40vh;
   background: linear-gradient(rgba(1,1,1,1.1), rgba(1,1,1,1.1)),
               url(images/restaurant.jpg) center/cover no-repeat;
@@ -95,6 +93,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0; /* Removed margin-top */
+  padding: 0;
 }
 
 .hero h1 {
