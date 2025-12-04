@@ -86,8 +86,8 @@ body {
 
 .hero {
   margin-top: 70px;
-  min-height: 10px;
-  background: linear-gradient(rgba(1, 1, 1, 1), rgba(1,1,1,1)),
+  min-height: 40vh;
+  background: linear-gradient(rgba(1,1,1,1.1), rgba(1,1,1,1.1)),
               url(images/restaurant.jpg) center/cover no-repeat;
   color: white;
   text-align: center;
