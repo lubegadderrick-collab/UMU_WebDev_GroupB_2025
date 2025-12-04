@@ -44,11 +44,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .nav-logo a {
     color: var(--white);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -57,12 +58,15 @@ body {
     display: flex;
     list-style: none;
     gap: 2rem;
-}
+    margin: 0;
+    padding: 0;
+    }
 
 .nav-link {
     color: var(--white);
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 1rem;
 }
 
 .nav-link:hover,
@@ -86,16 +90,18 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('restaurant1.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: calc(100vh - 60px);
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: var(--white);
-    margin-top: 60px;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-content h1 {
@@ -120,6 +126,7 @@ body {
     transition: background-color 0.3s ease;
     border: none;
     cursor: pointer;
+    
 }
 
 .cta-button:hover {
@@ -128,7 +135,7 @@ body {
 
 /* Features Section */
 .features {
-    padding: 5rem 0;
+    padding: 10rem 0;
     background-color: var(--gray-light);
 }
 
@@ -149,7 +156,7 @@ body {
     padding: 2rem;
     background: var(--white);
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .feature-card i {
@@ -164,7 +171,7 @@ body {
     color: var(--white);
     padding: 100px 0 50px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 0;
 }
 
 .page-header h1 {
